@@ -19,7 +19,7 @@ class DonutTab extends StatelessWidget {
             crossAxisCount: 2,
             crossAxisSpacing: 12,
             mainAxisSpacing: 12,
-            childAspectRatio: 1 / 1.6),
+            childAspectRatio: 1 / 1.45),
         itemCount: donutsOnSale.length,
         padding: const EdgeInsets.all(20),
         itemBuilder: (context, index) {
